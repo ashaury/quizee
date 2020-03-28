@@ -1,11 +1,11 @@
 <?php
 function koneksi()
 {
-        $host = "localhost";
-        $user = "sniaunja_mysurve";
-        $password = "QWERTYUI!@#$%^&*asdfghjk";
-        $db = "sniaunja_quizy";
-    return mysqli_connect($host, $user, $password, $db);
+    $host = "localhost";
+    $user = "root";
+    $password = "";
+    $db = "myquiz";    
+return mysqli_connect($host, $user, $password, $db);
 }
 function save($data)
 {
